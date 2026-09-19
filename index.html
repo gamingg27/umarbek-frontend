@@ -1960,7 +1960,7 @@
     // BACKEND API (Django REST) — bir domenda bo'lgani uchun API_BASE bo'sh.
     // Frontend boshqa hostingda bo'lsa: const API_BASE = 'https://umarbek-backend-production.up.railway.app';
     // ========================================================================
-    const API_BASE = '';
+    const API_BASE = 'https://umarbek-backend-production.up.railway.app';
     const getCookie = n => (document.cookie.split('; ').find(c => c.startsWith(n + '=')) || '').split('=')[1] || '';
 
     async function api(path, method = 'GET', body) {
